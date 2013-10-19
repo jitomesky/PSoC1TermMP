@@ -1,0 +1,14 @@
+$ python3.3 PSoC1TermMP.py -h
+usage: myPSoC1Term.py [-h] -o SerialPort -i filename
+
+how to use
+
+optional arguments:
+  -h, --help     show this help message and exit
+  -o SerialPort  set SerialPort absolute path
+  -i filename    PSoC1duino HEXcode filename
+
+
+
+example:
+$ python3.3 PSoC1TermMP.py -i ~/SkyDrive/embedded/PSoC/designer_workspace/LEDblink/LEDblink.hex -o /dev/tty.usbserial-A400FNYN
